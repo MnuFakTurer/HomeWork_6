@@ -114,5 +114,27 @@ import random
 #       f"\nRandom list two: {random_list_two}")
 # print(f"Connected list: {united}")
 
+# task 6
 
+def degree_number(list_number, degree_list):
+    result = []
+    for i in list_number:
+        result.append(i ** degree_list)
 
+    return result
+
+try:
+
+    random_list = []
+
+    for i in range(10):
+        random_list.append(random.randint(1, 11))
+
+    user_degree = int(input("Enter degree: "))
+    result = degree_number(random_list, user_degree)
+
+    print(f"Random list: {random_list}")
+    print(f"List the degree: {result}")
+
+except Exception as error:
+    print(error)
