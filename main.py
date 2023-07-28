@@ -1,7 +1,7 @@
 import random
 
 # task 1
-#
+
 # def multiply_list(lead_in):
 #     result = 1
 #     for num in lead_in:
@@ -16,4 +16,24 @@ import random
 #
 # print(f"Random List: {random_list}")
 # print(f"Product of elements in a list: {multiply_list(random_list)}")
+
+# task 2
+
+# def find_min(list):
+#     mearning = list[0] if list else None
+#     for num in list:
+#         if num < mearning:
+#             mearning = num
+#     return mearning
+#
+#
+#
+# random_list = []
+#
+# for i in range(10):
+#     random_list.append(random.randint(1, 500))
+#
+# print(f"Random List: {random_list}")
+# print(f"Product of elements in a list: {find_min(random_list)}")
+
 
