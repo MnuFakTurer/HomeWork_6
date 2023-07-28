@@ -63,3 +63,33 @@ import random
 # print(f"Random List: {random_list}")
 # print(f"Product of elements in a list: {num_primes}")
 
+# task 4
+
+# def remove_number(number, number_remove):
+#     new_list = []
+#     count = 0
+#
+#     for element in number:
+#         if element != number_remove:
+#             new_list.append(element)
+#         else:
+#             count += 1
+#
+#     return count, new_list
+#
+#
+# random_list = []
+#
+# for i in range(10):
+#     random_list.append(random.randint(1, 11))
+#
+# number_remove = random.choice(random_list)
+# count, new_list = remove_number(random_list, number_remove)
+#
+#
+#
+# print(f"Random List: {random_list}")
+# print(f"Number to remove: {number_remove}")
+# print(f"Number og items removed: {count}")
+# print(f"Modified list: {new_list}")
+
