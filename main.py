@@ -93,3 +93,26 @@ import random
 # print(f"Number og items removed: {count}")
 # print(f"Modified list: {new_list}")
 
+# task 5
+
+# def united_list(list_one, list_two):
+#     united = list_one + list_two
+#     return united
+#
+# random_list_one = []
+# random_list_two = []
+#
+# for i in range(10):
+#     random_number = random.randint(1, 50)
+#     if random_number % 2 == 0:
+#         random_list_one.append(random_number)
+#     else:
+#         random_list_two.append(random_number)
+#
+# united = united_list(random_list_one, random_list_two)
+# print(f"Random list one: {random_list_one}"
+#       f"\nRandom list two: {random_list_two}")
+# print(f"Connected list: {united}")
+
+
+
